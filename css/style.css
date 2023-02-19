@@ -1,6 +1,6 @@
 body {
     background-color: #FFDEAD;
-    background-image: url("https://github.com/Vedimi/White/blob/main/img/bg2.jpg");
+    background-image: "https://github.com/Vedimi/White/blob/main/img/bg2.jpg";
     background-repeat: repeat;
     background-position: 50%;
     margin: 0;
