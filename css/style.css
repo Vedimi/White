@@ -1,0 +1,177 @@
+body {
+    background-color: #FFDEAD;
+    background-image: url("/img/bg2.jpg");
+    background-repeat: repeat;
+    background-position: 50%;
+    margin: 0;
+    font-family: 'Redressed', cursive;
+}
+
+.header {
+
+    background-image: url("/img/pot.jpg");
+    background-repeat: repeat;
+
+
+
+}
+
+.logo h1 {
+    text-align: center;
+    padding-top: 3%;
+
+    font-size: 450%;
+    margin-top: 0%;
+    margin-left: 30%;
+    float: left;
+}
+
+.logo2 img {
+    width: 12%;
+    height: 5%;
+
+    float: right;
+    padding: 7px;
+    background-color: blue;
+    border-radius: 30px;
+
+    margin-right: 3%;
+    margin-top: 3;
+}
+
+
+#nav {
+
+    overflow: auto;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#nav li {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#nav a {
+    border: 1px solid;
+
+
+    border-radius: 15px;
+    color: rgb(2, 2, 24);
+    float: left;
+    font: bold 12px/35px Arial, Helvetica;
+    height: 35px;
+    padding: 0 30px;
+    text-decoration: none;
+
+
+    background: rgb(168, 184, 25);
+
+
+
+
+}
+
+#nav a:hover {
+
+    background: rgb(29, 198, 94);
+    background: linear-gradient(152deg, rgba(198, 29, 69, 0.21612394957983194) 16%, rgba(0, 18, 255, 0.7791491596638656) 78%);
+}
+
+
+
+
+
+#nav .active {
+    background: rgb(198, 29, 191);
+    background: linear-gradient(262deg, rgba(198, 29, 191, 0.21612394957983194) 11%, rgba(198, 47, 200, 0.7455357142857143) 63%);
+}
+
+article {
+
+    text-align: center;
+    background-color: #b1da20;
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+
+    width: 30%;
+
+    border-style: dotted;
+
+    border-color: rgb(114, 15, 207);
+
+}
+
+img {
+
+    background-color: blue;
+    border-radius: 30%;
+    width: 50%;
+
+    padding: 7px;
+    margin-top: 5%;
+}
+
+footer {
+    background-image: url("/img/pot.jpg");
+    background-repeat: repeat;
+
+}
+
+table {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-collapse: collapse;
+    border: 3px dotted purple;
+    table-layout: fixed;
+    width: 100%;
+
+}
+
+td {
+    padding: 2%;
+    text-align: center;
+    height: 200px;
+    border-collapse: collapse;
+    border: 3px dotted purple;
+}
+
+.form {
+    margin-top: 5%;
+    height: 900px;
+    margin-left: 15%;
+}
+
+input {
+
+    
+        display: block;
+        margin: 15px 0px;
+        width: 400px;
+        box-sizing: border-box;
+        border-radius: 30px;
+        box-shadow: inset 2px 2px 5px rgb(86, 199, 214);
+
+
+    }
+    select{
+        margin: 15px 0px;
+        width: auto;
+        box-sizing: border-box;
+        border-radius: 30px;
+        box-shadow: inset 2px 2px 5px rgb(86, 199, 214);
+    }
+    textarea{
+        margin: 15px 0px;
+       min-width: 400px;
+       min-height: 100px;
+        box-sizing: border-box;
+        border-radius: 30px;
+        box-shadow: inset 4px 4px 7px rgb(86, 199, 214);
+
+    }
